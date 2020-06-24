@@ -1,0 +1,36 @@
+{
+    "biometrix": {
+        "awscloudformation": {
+            "AuthRoleName": "ciser-20190315180033-authRole",
+            "UnauthRoleArn": "arn:aws:iam::246902639002:role/ciser-20190315180033-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::246902639002:role/ciser-20190315180033-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ciser-20190315180033-deployment",
+            "UnauthRoleName": "ciser-20190315180033-unauthRole",
+            "StackName": "ciser-20190315180033",
+            "StackId": "arn:aws:cloudformation:us-east-1:246902639002:stack/ciser-20190315180033/da054470-4743-11e9-9e8f-0a5651437e88"
+        },
+        "categories": {
+            "auth": {
+                "cognitob0b6651b": {}
+            }
+        }
+    },
+    "tunji": {
+        "awscloudformation": {
+            "AuthRoleName": "ciser-20190315185036-authRole",
+            "UnauthRoleArn": "arn:aws:iam::246902639002:role/ciser-20190315185036-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::246902639002:role/ciser-20190315185036-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ciser-20190315185036-deployment",
+            "UnauthRoleName": "ciser-20190315185036-unauthRole",
+            "StackName": "ciser-20190315185036",
+            "StackId": "arn:aws:cloudformation:us-east-1:246902639002:stack/ciser-20190315185036/d7a15fa0-474a-11e9-9548-0e85eb8bafe8"
+        },
+        "categories": {
+            "auth": {
+                "cognitob0b6651b": {}
+            }
+        }
+    }
+}

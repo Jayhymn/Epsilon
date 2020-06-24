@@ -1,0 +1,13 @@
+{
+    "bucketName": "3controx",
+    "authPolicyName": "s3_amplify_7eb004a0",
+    "unauthPolicyName": "s3_amplify_7eb004a0",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}

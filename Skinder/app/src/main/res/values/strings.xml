@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Skinder</string>
+    <string name="txtBox_phoneHint">0123456789</string>
+    <string name="otp_hint">012345</string>
+    <string name="sign_in">Sign In</string>
+    <string name="btn_txt">Sign In</string>
+    <string name="email_address_hint">myemail@mywebsite.com</string>
+    <string name="password_hint">P@ssW0rd</string>
+    <string name="forgot_password_txtview">you forgot your password?</string>
+    <string name="password_reset">get mail to reset password</string>
+</resources>

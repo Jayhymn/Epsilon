@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivities.Schedule_Activity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/parentView">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="@string/Image_View"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:id="@+id/name"
+            android:hint="@string/yourName"
+            android:inputType="textPersonName"
+            android:layout_below="@id/imgView"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/allbtns"
+            android:layout_below="@id/name">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGrp"
+                android:orientation="horizontal"
+                android:contentDescription="@string/radiogroup">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/visitor"
+                    android:contentDescription="@string/Visitor"
+                    android:text="@string/visitor"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/backstageStf"
+                    android:contentDescription="@string/ifStaff"
+                    android:text="@string/staff"
+                    android:layout_marginLeft="20dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/spinnerLayout"
+            android:layout_below="@id/allbtns"
+            android:layout_marginBottom="20dp"
+            android:background="#D3D3D3">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/dynamic"
+            android:layout_below="@id/spinnerLayout"
+            android:layout_marginBottom="20dp">
+
+        </LinearLayout>
+<!--<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sign In"
+    android:layout_marginTop="10dp"
+    android:id="@+id/checkbox"/>-->
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dynamic"
+            android:contentDescription="@string/signup"
+            android:gravity="center_horizontal"
+            android:text="@string/register" />
+    </LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmartChat</string>
+    <string name="sms_charges">You will receive and sms and standard rates my apply</string>
+    <string name="phoneHint">phone number</string>
+    <string name="verifcationCode">123456</string>
+    <string name="last_msg">Last message sent to you/&amp;#8230</string>
+    <string name="device_name">Device stored name</string>
+    <string name="string_viewpager_chats">CHATS</string>
+    <string name="viewpager_status">STATUS</string>
+    <string name="viewpager_calls">CALLS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

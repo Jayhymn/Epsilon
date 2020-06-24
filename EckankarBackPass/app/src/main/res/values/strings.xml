@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Eckankar Back Pass</string>
+    <string name="Image_View">Image View</string>
+    <string name="Username">name of user</string>
+    <string name="yourName">Enter your name</string>
+    <string name="radiogroup">radio group</string>
+    <string name="Visitor">If visitor choose this</string>
+    <string name="visitor">Visitor</string>
+    <string name="staff">Basckstage Staff</string>
+    <string name="ifStaff">choose this if staff</string>
+    <string name="signup">save details</string>
+    <string name="register">Register</string>
+    <string-array name="visitor">
+        <item>select</item>
+        <item>On schedule</item>
+        <item>On Invite</item>
+    </string-array>
+    <string name="title_activity_bottom_nav">bottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

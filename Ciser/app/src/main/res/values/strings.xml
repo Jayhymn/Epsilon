@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ciser</string>
+    <string name="prog_txt">Authenticating Device...</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="hint">Enter Username</string>
+    <string name="pic">Retake Pic</string>
+    <string name="image">image</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg">Tick the appropriate box and then submit</string>
+    <string name="resumption">Resumption</string>
+    <string name="break_time">break</string>
+    <string name="in">In</string>
+    <string name="out">Out</string>
+    <string name="official">official</string>
+    <string name="closing">closing</string>
+    <string name="submit">submit</string>
+</resources>
