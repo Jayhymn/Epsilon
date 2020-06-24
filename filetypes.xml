@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="webp" type="Image" />
+      <mapping pattern="Epsilon" type="Native" />
+      <mapping pattern="background" type="XML" />
+      <mapping pattern="notificaiton" type="XML" />
+    </extensionMap>
+  </component>
+</application>
