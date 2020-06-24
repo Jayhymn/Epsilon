@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/parentForm"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:id="@+id/day"
+        android:layout_marginRight="5dp"/>
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dateEvent"
+    android:layout_weight="0.4"
+    android:padding="4dp"
+    android:hint="dd/mm/yyyy"
+    android:focusable="false"
+    android:textAlignment="center"
+    android:maxLength="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="-"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromTime"
+        android:padding="4dp"
+        android:maxLength="5"
+        android:focusable="false"
+        android:hint="00:00"
+        android:textAlignment="center"
+        android:layout_weight="0.3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="-"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:maxLength="5"
+        android:focusable="false"
+        android:hint="00:00"
+        android:textAlignment="center"
+        android:layout_weight="0.3"
+        android:id="@+id/toTime"/>
+</LinearLayout>

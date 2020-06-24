@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Epsilon</string>
+    <string name="loadingMsg">Checking Device…</string>
+    <string name="location_msg">checking user location</string>
+    <string name="button">REGISTER DEVICE</string>
+    <string name="img_preview">preview</string>
+    <string name="snap_pic">snap document</string>
+    <string name="loading">Loading…</string>
+    <string name="siteListMsg">YOU HAVE BEEN ASSIGNED TO THE FOLLOWING SITE(S), CLICK ON ANY TO CLOCK IN</string>
+    <string name="officeMsg">CLICK ON ADDRESS BELOW TO REGISTER AS OFFICE FOR TODAY</string>
+    <string name="site_name">Site Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="equipmentOnSite">EQUIPMENT ON SITE</string>
+    <string name="clock_out">Clock Out</string>
+    <string name="register_device">choose your name from the dropdown menu and register device</string>
+    <string name="site">SITE</string>
+    <string name="office">OFFICE</string>
+    <string name="form_title">OFFICE ASSIGNMENT</string>
+    <string name="multiChoiceTxt">Choose the task you were meant to carry out</string>
+    <string name="tas_msg">What is the quantity / percentage of the task executed?</string>
+    <string name="daily_deal_breaker">Daily Deal Breaker</string>
+    <string name="fillForm">fill out the form</string>
+    <string name="snap_document">snap document</string>
+    <string name="snap_doc_msg">click to snap document</string>
+    <string name="completed_task">There are no pending tasks for this equipment</string>
+    <string name="fill_form">click link to fill google form</string>
+    <string name="assignment_type">choose your assignment type</string>
+    <string name="verify_identity">verify identity</string>
+    <string name="instruction_doc">TAKE A PHOTO OF THE FILLED MAINTENANCE FORM TO UPLOAD</string>
+    <string name="instruction_verify">TAKE A PHOTO SHOWING YOUR FACE TO VERIFY IDENTITY</string>
+    <string name="epsilon">EPSILON</string>
+    <string name="break_over">BREAK OVER</string>
+    <string name="time_left">TIME LEFT - </string>
+    <string name="choose_break">CHOOSE HOW LONG YOU WILL YOU BE ON BREAK</string>
+    <string name="current_location_office">use current location as office</string>
+    <string name="register_new_user">REGISTER NEW USER</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="quality_photo">take a high quality photo to make verification easy</string>
+    <string name="wrong_login">Wrong Login Details</string>
+    <string name="take_picture">take picture</string>
+</resources>

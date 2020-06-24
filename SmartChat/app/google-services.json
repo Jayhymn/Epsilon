@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "598560819252",
+    "firebase_url": "https://sma3tchat.firebaseio.com",
+    "project_id": "sma3tchat",
+    "storage_bucket": "sma3tchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598560819252:android:7e75809019fb4a96",
+        "android_client_info": {
+          "package_name": "com.jayhymn.smartchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598560819252-sv1od5jr9lo5jdcm4f6tutfbd5p3chq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPRcYjAT60Hf38NqnkpWkEoQyCeoqyHv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598560819252-sv1od5jr9lo5jdcm4f6tutfbd5p3chq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

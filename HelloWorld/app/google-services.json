@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "642635296137",
+    "firebase_url": "https://facial-recognition-93f6f.firebaseio.com",
+    "project_id": "facial-recognition-93f6f",
+    "storage_bucket": "facial-recognition-93f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642635296137:android:198c17d13ec9e547",
+        "android_client_info": {
+          "package_name": "com.example.tunji.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642635296137-sgrp4i22m6scbh6bllmmbvgo8l1ae51b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ALlBOv7upnw83LkfL3nNResJK8G2N2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

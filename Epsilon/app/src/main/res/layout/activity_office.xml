@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    tools:context=".office.OfficeActivity">
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_holder"/>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10sp"
+        app:columnCount="2" app:rowCount="2"
+        android:padding="4dp"
+
+        app:layout_constraintHeight_percent="0.8"
+        app:layout_constraintBottom_toTopOf="@id/signout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/count" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardElevation="8sp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/task_icon_72"
+                android:onClick="fillGoogleForm"
+                android:text="DAILY DEALS"/>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardElevation="8sp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/other_tasks_72"
+                android:onClick="fillGoogleForm"
+                android:text="OTHER DEALS"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardElevation="8sp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/support"
+                android:onClick="fillGoogleForm"
+                android:text="SUPPORT"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5sp"
+            app:cardCornerRadius="10sp"
+            app:cardElevation="8sp"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="1sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:onClick="showDialog"
+                android:drawableTop="@drawable/coffee_icon_72"
+                android:text="BREAK"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_holder"
+        android:text="@string/clock_out"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
